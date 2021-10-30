@@ -25,9 +25,12 @@ const About = () => {
             websites. I also love coding.
           </p>
           <p>
-            I was born in Rourkela,Odisha but now I live in Bhubaneswar,Odisha.
+            {/* I was born in Rourkela,Odisha but now I live in Bhubaneswar,Odisha.
             So, I’m very much fond of dahi-vada, which is very famous in the
-            twin city of Odisha(Cuttack and Bhubaneswar).
+            twin city of Odisha(Cuttack and Bhubaneswar). */}
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            facere commodi, ab explicabo aspernatur, autem iste vel maxime,
+            impedit dolorum cum inventore quis amet!
           </p>
           <p>
             I graduated @ Trident Academy of Technology,Bhubaneswar where I
