@@ -77,7 +77,7 @@
     font-weight: bold;
 }
 
-#navbar ul li a:hover {
+#navbar ul li a:hover:not(.active) {
     font-size: 2rem;
     text-shadow: 0.2vw 0.2vw 1vw white;
     transition: all ease-in-out 0.4s;
