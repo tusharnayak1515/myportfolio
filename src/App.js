@@ -24,15 +24,15 @@ function App() {
             <Home />
         </Route>
 
-        <Route exact path="/projects">
+        <Route exact path={process.env.PUBLIC_URL + '/projects'}>
             <Projects />
         </Route>
 
-        <Route exact path="/about">
+        <Route exact path={process.env.PUBLIC_URL + '/about'}>
             <About />
         </Route>
 
-        <Route exact path="/contact">
+        <Route exact path={process.env.PUBLIC_URL + '/contact'}>
             <Contact />
         </Route>
 
