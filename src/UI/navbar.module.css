@@ -78,8 +78,9 @@
 }
 
 #navbar ul li a:hover {
+    font-size: 2rem;
     text-shadow: 0.2vw 0.2vw 1vw white;
-    /* transition: all ease-in-out 0.4s; */
+    transition: all ease-in-out 0.4s;
 }
 
 /* #navbar ul li a {
@@ -206,6 +207,7 @@
     }
 
     #navbar ul li a:hover {
+        font-size: 1.5rem;
         text-shadow: 0.5vw 0.5vw 2vw white;
     }
 
@@ -272,6 +274,7 @@
 
     #navbar ul li a:hover {
         font-size: 1.5rem;
+        text-shadow: 0.5vw 0.5vw 2vw white;
     }
 
 }
@@ -296,6 +299,7 @@
 
     #navbar ul li a:hover {
         font-size: 1.4rem;
+        text-shadow: 0.3vw 0.3vw 1.2vw white;
     }
 
 }
@@ -308,6 +312,7 @@
 
     #navbar ul li a:hover {
         font-size: 1.5rem;
+        text-shadow: 0.2vw 0.2vw 1vw white;
     }
 
 }
