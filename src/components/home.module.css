@@ -1,0 +1,122 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 12vh;
+    min-height: 60vh;
+    /* background-color: wheat; */
+}
+
+#home h1 {
+    font-size: 3vw;
+    font-family: 'Merriweather', serif;
+}
+
+#home h1 span {
+    color: rgb(109, 226, 255);
+}
+
+#home h2 {
+    font-size: 2.5vw;
+    font-family: 'Merriweather', serif;
+}
+
+#home a {
+    margin-top: 2vh;
+    text-decoration: none;
+}
+
+#home a button {
+    font-size: 2vw;
+    padding: 0.5vw 1vw;
+    border: 0.2vw solid white;
+    border-radius: 0.8vw;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#home a button:hover {
+    background-color: #0e76a8;
+    transition: background-color 0.3s;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+
+    #home {
+        margin-top: 10vh;
+        min-height: 50vh;
+        /* background-color: wheat; */
+    }
+
+    #home h1 {
+        font-size: 6vw;
+    }
+
+    #home h2 {
+        font-size: 5vw;
+    }
+    
+    #home a {
+        margin-top: 1.5vh;
+    }
+    
+    #home a button {
+        font-size: 5vw;
+        padding: 2vw 3vw;
+        border: 0.3vw solid white;
+        border-radius: 2vw;
+    }
+    
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    #home {
+        margin-top: 10vh;
+        min-height: 52vh;
+        /* background-color: wheat; */
+    }
+
+    #home h1 {
+        font-size: 5vw;
+    }
+
+    #home h2 {
+        font-size: 4vw;
+    }
+    
+    #home a {
+        margin-top: 1.5vh;
+    }
+    
+    #home a button {
+        font-size: 4vw;
+        padding: 1.5vw 2.5vw;
+        border: 0.3vw solid white;
+        border-radius: 2vw;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #home h1 {
+        font-size: 3.3vw;
+    }
+
+    #home h2 {
+        font-size: 2.8vw;
+    }
+
+    #home a button {
+        font-size: 2.5vw;
+        padding: 0.6vw 1.2vw;
+        border: 0.25vw solid white;
+        border-radius: 1vw;
+    }
+
+}
