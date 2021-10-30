@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <Switch>
 
-      <Route path={process.env.REACT_APP_PUBLIC_URL + '/'}>
+      <Route exact path={process.env.REACT_APP_PUBLIC_URL + '/'}>
             <Home />
         </Route>
 
