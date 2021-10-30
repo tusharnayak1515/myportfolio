@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <nav id={styles.navbar}>
             <div id={styles.logo}>
-                <h2><Link to='/'>Tushar Ranjan Nayak</Link></h2>
+                <h2><Link to={process.env.PUBLIC_URL + '/'}>Tushar Ranjan Nayak</Link></h2>
                 <div id={styles.toggle} onClick={onToggle}>
                     <span></span>
                     <span></span>
