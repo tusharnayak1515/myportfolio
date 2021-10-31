@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <nav id={styles.navbar}>
             <div id={styles.logo}>
-                <h2><Link to={process.env.PUBLIC_URL + '/'}>Tushar Ranjan Nayak</Link></h2>
+                <h2><Link to='/'>Tushar Ranjan Nayak</Link></h2>
                 <div id={styles.toggle} onClick={onToggle}>
                     <span></span>
                     <span></span>
@@ -31,9 +31,9 @@ const Navbar = () => {
                 </div>
             </div>
             <ul>
-                <li><Link to={process.env.PUBLIC_URL + '/projects'} data-char="Projects" className={`${location.pathname === process.env.PUBLIC_URL + '/projects' ? styles.active : ""}`}>Projects</Link></li>
-                <li><Link to={process.env.PUBLIC_URL + '/about'} data-char="About" className={`${location.pathname === process.env.PUBLIC_URL + '/about' ? styles.active : ""}`}>About</Link></li>
-                <li><Link to={process.env.PUBLIC_URL + '/contact'} data-char="Contact" className={`${location.pathname === process.env.PUBLIC_URL + '/contact' ? styles.active : ""}`}>Contact</Link></li>
+                <li><Link to='/projects' data-char="Projects" className={`${location.pathname === '/projects' ? styles.active : ""}`}>Projects</Link></li>
+                <li><Link to='/about' data-char="About" className={`${location.pathname === '/about' ? styles.active : ""}`}>About</Link></li>
+                <li><Link to='/contact' data-char="Contact" className={`${location.pathname === '/contact' ? styles.active : ""}`}>Contact</Link></li>
             </ul>
         </nav>
     )
