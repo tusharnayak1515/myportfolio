@@ -20,19 +20,19 @@ function App() {
       <Navbar />
       <Switch>
 
-      <Route exact path={process.env.PUBLIC_URL + '/'}>
+      <Route exact path='/'>
             <Home />
         </Route>
 
-        <Route exact path={process.env.PUBLIC_URL + '/projects'}>
+        <Route exact path='/projects'>
             <Projects />
         </Route>
 
-        <Route exact path={process.env.PUBLIC_URL + '/about'}>
+        <Route exact path='/about'>
             <About />
         </Route>
 
-        <Route exact path={process.env.PUBLIC_URL + '/contact'}>
+        <Route exact path='/contact'>
             <Contact />
         </Route>
 
