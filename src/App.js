@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <Switch>
 
-      <Route exact path='/'>
+      <Route exact path='/myportfolio'>
             <Home />
         </Route>
 
