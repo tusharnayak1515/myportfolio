@@ -35,7 +35,6 @@ const About = () => {
           <p>
             I graduated @ Trident Academy of Technology,Bhubaneswar where I
             discovered my passion for coding and making fully fledged websites.
-            I am currently working @ Bodas.net as Full-Stack Web Developer.
           </p>
         </div>
       </div>
