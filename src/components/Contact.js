@@ -30,7 +30,7 @@ const Contact = () => {
         form.current,
         user_id
       );
-      console.log(result.text);
+      // console.log(result.text);
     } catch (error) {
       console.log(error);
     }
